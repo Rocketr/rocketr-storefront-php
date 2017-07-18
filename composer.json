@@ -1,0 +1,25 @@
+{
+    "name": "rocketr/rocketr-php-sdk",
+    "description": "This is rocketr's SDK for using rocketr.net's api",
+    "license": "Apache-2.0",
+    "version": "dev-master",
+    "authors": [
+        {
+            "name": "Rocketr",
+            "email": "admin@rocketr.net"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Rocketr\\": "lib/"
+        }
+    }
+}
